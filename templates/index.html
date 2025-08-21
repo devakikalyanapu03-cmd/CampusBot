@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KBN College</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <img src="/static/logo2.jpg" class="logo">
+            <div class="team-name">KBN College</div>
+        </div>
+        <div class="chat-box" id="chat-box"></div>
+        <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask something!">
+        <button id="send-button">➤</button>
+        <button id="mic-button">🎙</button> <!-- Mic button -->
+        <!-- Floating Chatbot Button -->
+        <button id="chatbot-toggle">💬</button>
+
+        <!-- Chatbot Iframe -->
+        <iframe id="chatbot-frame" src="/chatbot"></iframe>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
