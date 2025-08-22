@@ -1,6 +1,6 @@
 body {
     background-image: url('/static/red.jpg');
-    background-size: cover;
+    background-size: 1000px;
     background-position: center;
     font-family: Arial, sans-serif;
     margin: 0;
